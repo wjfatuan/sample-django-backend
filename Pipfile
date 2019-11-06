@@ -6,8 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "2.2.6"
-django-rest-framework = "3.10.3"
+django = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.6"
