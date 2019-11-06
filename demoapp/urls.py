@@ -17,7 +17,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.urls import path
 
+from students import urls
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^api-auth/', include('rest_framework.urls')),
 ]
 
+urlpatterns.append(url(r'^', include(urls.router.urls)))

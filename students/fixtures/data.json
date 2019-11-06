@@ -1,0 +1,32 @@
+[
+    {
+        "model": "students.student",
+        "pk": 1,
+        "fields": {
+            "code": "3001",
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Schmoe",
+            "birth_date": "2001-10-16",
+            "phone_number": ""
+        }
+    },
+    {
+        "model": "students.address",
+        "pk": 1,
+        "fields": {
+            "student": 1,
+            "address_type": "HOME",
+            "address": "Palm Street, 16"
+        }
+    },
+    {
+        "model": "students.address",
+        "pk": 2,
+        "fields": {
+            "student": 1,
+            "address_type": "FAMILY",
+            "address": "Palm Beach, 68"
+        }
+    }
+]

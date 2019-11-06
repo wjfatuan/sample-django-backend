@@ -1,0 +1,52 @@
+[
+    {
+        "model": "faculty.jobtitle",
+        "pk": 1,
+        "fields": {
+            "name": "Profesor asistente",
+            "description": "Profesor asistente"
+        }
+    },
+    {
+        "model": "faculty.jobtitle",
+        "pk": 2,
+        "fields": {
+            "name": "Profesor de catedra",
+            "description": "Profesor de catedra"
+        }
+    },
+    {
+        "model": "faculty.jobtitle",
+        "pk": 3,
+        "fields": {
+            "name": "Profesor exclusivo",
+            "description": "Profesor exclusivo"
+        }
+    },
+    {
+        "model": "faculty.faculty",
+        "pk": 1,
+        "fields": {
+            "code": "1001",
+            "gender": "M",
+            "first_name": "Joe",
+            "last_name": "Bloggs",
+            "birth_date": "1984-03-16",
+            "phone_number": "",
+            "job_title": 1
+        }
+    },
+    {
+        "model": "faculty.faculty",
+        "pk": 2,
+        "fields": {
+            "code": "1002",
+            "gender": "F",
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "birth_date": "1998-05-24",
+            "phone_number": "",
+            "job_title": 3
+        }
+    }
+]
